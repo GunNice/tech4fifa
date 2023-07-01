@@ -7,9 +7,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Jogadores {
     @Id
     private String id;
+    private RaridadeItem raridadeItem;
     private String nomeJogador;
     private String pais;
-    private String clube;
+    private Clubs clube;
     private String posicao;
     private int overall;
     private int ritimo;
@@ -26,6 +27,12 @@ public class Jogadores {
     public void setId(String id) {
         this.id = id;
     }
+      public RaridadeItem getRaridadeItem() {
+        return raridadeItem;
+    }
+    public void setRaridadeItem(RaridadeItem raridadeItem) {
+        this.raridadeItem = raridadeItem;
+    }
     public String getNomeJogador() {
         return nomeJogador;
     }
@@ -38,10 +45,10 @@ public class Jogadores {
     public void setPais(String pais) {
         this.pais = pais;
     }
-    public String getClube() {
+    public Clubs getClube() {
         return clube;
     }
-    public void setClube(String clube) {
+    public void setClube(Clubs clube) {
         this.clube = clube;
     }
     public String getPosicao() {
