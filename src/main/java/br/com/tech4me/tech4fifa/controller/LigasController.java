@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.tech4me.tech4fifa.model.Clubs;
+
 import br.com.tech4me.tech4fifa.model.Ligas;
-import br.com.tech4me.tech4fifa.repository.ClubsRepository;
+
 import br.com.tech4me.tech4fifa.repository.LigasRepository;
 
 @RestController
