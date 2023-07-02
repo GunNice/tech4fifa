@@ -8,7 +8,7 @@ public class Clubs {
  @Id
  private String id;
  private String nomeClub;
- private Ligas liga;
+ private String liga;
  private String sigla;
 
 
@@ -32,10 +32,10 @@ public void setSigla(String sigla) {
     this.sigla = sigla;
 }
 
-public Ligas getLiga() {
+public String getLiga() {
     return liga;
 }
-public void setLiga(Ligas liga) {
+public void setLiga(String liga) {
     this.liga = liga;
 }  
 }

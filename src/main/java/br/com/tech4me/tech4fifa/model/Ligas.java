@@ -11,32 +11,42 @@ public class Ligas {
     private String paisLiga;
     private String divisao;
 
+    public Ligas() {
+    }
 
-   
+    public Ligas(String nomeLiga) {
+        this.nomeLiga = nomeLiga;
+    }
+
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
+
     public String getNomeLiga() {
         return nomeLiga;
     }
+
     public void setNomeLiga(String nomeLiga) {
         this.nomeLiga = nomeLiga;
     }
+
     public String getPaisLiga() {
         return paisLiga;
     }
+
     public void setPaisLiga(String paisLiga) {
         this.paisLiga = paisLiga;
     }
-     public String getDivisao() {
+
+    public String getDivisao() {
         return divisao;
     }
+
     public void setDivisao(String divisao) {
         this.divisao = divisao;
     }
-
-
 }

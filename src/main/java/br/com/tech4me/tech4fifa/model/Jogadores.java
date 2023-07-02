@@ -10,7 +10,7 @@ public class Jogadores {
     private RaridadeItem raridadeItem;
     private String nomeJogador;
     private String pais;
-    private Clubs clube;
+    private String clube;
     private String posicao;
     private int overall;
     private int ritimo;
@@ -45,10 +45,10 @@ public class Jogadores {
     public void setPais(String pais) {
         this.pais = pais;
     }
-    public Clubs getClube() {
+    public String getClube() {
         return clube;
     }
-    public void setClube(Clubs clube) {
+    public void setClube(String clube) {
         this.clube = clube;
     }
     public String getPosicao() {
